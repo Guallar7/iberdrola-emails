@@ -384,8 +384,9 @@ clicks: 1
 .meta {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.8rem;
   font-size: 0.9rem;
+  line-height: 1.6;
   color: #666;
   flex: 1;
 }
