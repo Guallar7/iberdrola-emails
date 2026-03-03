@@ -33,7 +33,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 17/01/2026</span>
-      <span><b>Asunto:</b> Solicitud de desistimiento</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -64,7 +63,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 17/01/2026</span>
-      <span><b>Asunto:</b> Reclamación por cobro improcedente</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -84,7 +82,6 @@ clicks: 1
       <span><b>De:</b> Iberdrola Clientes</span>
       <span><b>Para:</b> David Guallar</span>
       <span><b>Fecha:</b> 18/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -104,7 +101,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 18/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -124,7 +120,6 @@ clicks: 1
       <span><b>De:</b> Iberdrola Clientes</span>
       <span><b>Para:</b> David Guallar</span>
       <span><b>Fecha:</b> 19/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -144,7 +139,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 19/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -164,7 +158,6 @@ clicks: 1
       <span><b>De:</b> Iberdrola Clientes</span>
       <span><b>Para:</b> David Guallar</span>
       <span><b>Fecha:</b> 20/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -184,7 +177,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 21/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación — Art. 102 RD 1/2007</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -204,7 +196,6 @@ clicks: 1
       <span><b>De:</b> Iberdrola Clientes</span>
       <span><b>Para:</b> David Guallar</span>
       <span><b>Fecha:</b> 22/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -224,7 +215,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 23/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -244,7 +234,6 @@ clicks: 1
       <span><b>De:</b> Iberdrola Clientes</span>
       <span><b>Para:</b> David Guallar</span>
       <span><b>Fecha:</b> 24/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -264,7 +253,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 25/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación — Prueba adjunta</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -284,7 +272,6 @@ clicks: 1
       <span><b>De:</b> Iberdrola Clientes</span>
       <span><b>Para:</b> David Guallar</span>
       <span><b>Fecha:</b> 26/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -304,7 +291,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 27/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -324,7 +310,6 @@ clicks: 1
       <span><b>De:</b> Iberdrola Clientes</span>
       <span><b>Para:</b> David Guallar</span>
       <span><b>Fecha:</b> 28/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -344,7 +329,6 @@ clicks: 1
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 29/01/2026</span>
-      <span><b>Asunto:</b> Reclamación Final — RGPD Art. 17</span>
     </div>
   </div>
   <hr class="email-sep" />
@@ -400,7 +384,7 @@ clicks: 1
 .meta {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
+  gap: 0.6rem;
   font-size: 0.9rem;
   color: #666;
   flex: 1;
