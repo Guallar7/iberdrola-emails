@@ -36,7 +36,7 @@ clicks: 1
     </div>
   </div>
   <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Por la presente, le comunico mi voluntad de ejercer el derecho de desistimiento respecto al contrato o pedido realizado el pasado día 14/01/2026. De acuerdo con la normativa vigente, solicito la cancelación del mismo. Agradecería que me confirmaran la recepción de este mensaje y me indicaran los pasos a seguir para finalizar el proceso. Adjunto documento de desistimiento firmado así como mi dni. Atentamente, David Guallar." />
+  <Typewriter v-if="$clicks >= 1" text="Por la presente, comunico formalmente mi decisión de ejercer el derecho de desistimiento del contrato formalizado el 14/01/2026, de conformidad con la normativa legal vigente. Ruego procedan a su cancelación inmediata sin penalización alguna y me confirmen la tramitación de esta solicitud. Adjunto formulario firmado y copia de mi DNI. Atentamente, David Guallar." />
 </div>
 
 ---
@@ -44,7 +44,7 @@ clicks: 1
 # Interlude
 
 <div class="narrative-slide">
-  <h2 style="font-size: 1.8rem; color: #ff6600;">⚠️ Iberdrola procede a cobrar</h2>
+  <h2 style="font-size: 1.8rem; color: #ff6600;">⚠️ Iberdrola procede a cobrarme por cancelar el contrato</h2>
   <p style="font-size: 1.3rem; margin-top: 2rem; opacity: 0.8;">
     Ignorando completamente el desistimiento...
   </p>
@@ -345,80 +345,4 @@ clicks: 1
   <p style="font-size: 1.3rem; opacity: 0.6;">Respuesta de Iberdrola: TBD</p>
 </div>
 
-<style>
-.slidev-layout {
-  background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
-  font-family: 'IBM Plex Sans', sans-serif;
-  padding: 2rem;
-}
 
-.email-card {
-  background: white;
-  border-radius: 6px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  overflow: hidden;
-  max-width: 800px;
-  margin: 0 auto;
-  height: 100%;
-}
-
-.email-card.david .stripe { background: #1a3a6b; }
-.email-card.iberdrola .stripe { background: #ff6600; }
-
-.stripe {
-  width: 8px;
-  flex-shrink: 0;
-}
-
-.email-header {
-  display: flex;
-  gap: 1rem;
-  padding: 1.5rem;
-  border-bottom: 1px solid #e0e0e0;
-  align-items: flex-start;
-}
-
-.meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: #666;
-  flex: 1;
-}
-
-.meta b {
-  color: #333;
-}
-
-.email-sep {
-  border: none;
-  border-top: 1px solid #e0e0e0;
-  margin: 0;
-}
-
-
-.narrative-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  text-align: center;
-}
-
-.narrative-slide h2 {
-  font-size: 2.5rem !important;
-  margin: 0 !important;
-}
-
-.narrative-slide p {
-  font-size: 1.5rem;
-  margin-top: 2rem !important;
-  opacity: 0.7;
-}
-</style>
