@@ -109,7 +109,7 @@ clicks: 1
     <div class="meta">
       <span><b>De:</b> David Guallar</span>
       <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 17/01/2026</span>
+      <span><b>Fecha:</b> 18/01/2026</span>
     </div>
   </div>
   <hr class="email-sep" />
