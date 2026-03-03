@@ -60,10 +60,17 @@ Infinitas contradicciones
 </v-click>
 
 ---
+
+<div class="narrative-slide">
+  <img src="/ai_writing_emails.png" style="max-height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.15);" />
+  <p style="margin-top: 2rem; font-size: 1.5rem; max-width: 800px; text-align: center;">No tengo tiempo para lidiar con su burocracia.<br><span class="opacity-80">Le encargo la tarea a mi IA personal para que tramite el desistimiento en mi nombre.</span></p>
+</div>
+
+---
 clicks: 1
 ---
 
-# Email 1: David Solicita Desistimiento
+# Email 1: La IA (por David) Solicita Desistimiento
 
 <div class="email-card david">
   <div class="email-header">
@@ -94,7 +101,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 2: David Reclama
+# Email 2: La IA Reclama
 
 <div class="email-card david">
   <div class="email-header">
@@ -132,7 +139,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 4: David Explica
+# Email 4: La IA Explica
 
 <div class="email-card david">
   <div class="email-header">
@@ -170,7 +177,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 6: David Reitera
+# Email 6: La IA Reitera
 
 <div class="email-card david">
   <div class="email-header">
@@ -205,17 +212,10 @@ clicks: 1
 </div>
 
 ---
-
-<div class="narrative-slide">
-  <img src="/ai_writing_emails.png" style="max-height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.15);" />
-  <p style="margin-top: 2rem; font-size: 1.5rem;">Momento de desatar a mi IA jurídica...</p>
-</div>
-
----
 clicks: 1
 ---
 
-# Email 8: David Cita la Ley
+# Email 8: La IA Cita la Ley
 
 <div class="email-card david">
   <div class="email-header">
@@ -253,7 +253,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 10: David Resume
+# Email 10: La IA Resume
 
 <div class="email-card david">
   <div class="email-header">
@@ -291,7 +291,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 12: David Aporta Prueba
+# Email 12: La IA Aporta Prueba
 
 <div class="email-card david">
   <div class="email-header">
@@ -329,7 +329,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 14: David Presenta Evidencia
+# Email 14: La IA Presenta Evidencia
 
 <div class="email-card david">
   <div class="email-header">
@@ -367,7 +367,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 16: David Escalada Final
+# Email 16: La IA Escalada Final
 
 <div class="email-card david">
   <div class="email-header">
