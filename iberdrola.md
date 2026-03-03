@@ -21,6 +21,45 @@ Infinitas contradicciones
 </div>
 
 ---
+
+<div class="narrative-slide">
+  <img src="/signing_contract.png" style="max-height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.15);" />
+  <p style="margin-top: 2rem; font-size: 1.5rem;">Todo empezó muy bien, firmando un contrato...</p>
+</div>
+
+---
+
+# El Origen del Desistimiento
+
+<v-click>
+<div class="grid grid-cols-2 gap-6 mt-2">
+  <div class="bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-200">
+    <h3 class="text-lg mb-2 text-green-600 font-bold">La Promesa</h3>
+    <ul class="list-disc ml-4 text-gray-700 text-sm leading-relaxed">
+      <li>Una tarifa eléctrica <b>más barata</b>.</li>
+      <li>Descuento del 20% en el consumo de energía.</li>
+    </ul>
+  </div>
+  
+  <div class="bg-red-50 p-5 rounded-lg shadow-sm border border-red-100">
+    <h3 class="text-lg mb-2 text-red-600 font-bold">La Realidad (Revelada por ChatGPT)</h3>
+    <ul class="list-disc ml-4 text-gray-700 text-sm leading-relaxed">
+      <li><b>≈ 56% más caro</b> (+15,50 € al mes con mi consumo).</li>
+      <li>Coste de potencia duplicado frente a Energía XXI.</li>
+      <li><b>"Pack Iberdrola Hogar"</b> obligatorio (10,83 €/mes).</li>
+      <li>Penalización del 5% por baja en el primer año.</li>
+    </ul>
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="mt-4 p-3 bg-orange-100 rounded-lg text-center font-semibold text-orange-800 border border-orange-200 shadow-sm" style="font-size: 1rem;">
+  Al darme cuenta de las trampas a los 3 días de firmar, decido ejercer mi derecho legal de desistimiento (14 días).
+</div>
+</v-click>
+
+---
 clicks: 1
 ---
 
@@ -44,8 +83,9 @@ clicks: 1
 # Interlude
 
 <div class="narrative-slide">
+  <img src="/realizing_scam.png" style="max-height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.15); margin-bottom: 2rem;" />
   <h2 style="font-size: 1.8rem; color: #ff6600;">⚠️ Iberdrola procede a cobrarme por cancelar el contrato</h2>
-  <p style="font-size: 1.3rem; margin-top: 2rem; opacity: 0.8;">
+  <p style="font-size: 1.3rem; margin-top: 1rem; opacity: 0.8;">
     Ignorando completamente el desistimiento...
   </p>
 </div>
@@ -162,6 +202,13 @@ clicks: 1
   </div>
   <hr class="email-sep" />
   <Typewriter v-if="$clicks >= 1" text="Le informo que se ha emitido una factura de penalización de 11,30 €. El desistimiento tarda unos días en ejecutarse; por ese motivo no tiene que solicitar el cambio de comercializadora. La factura es correcta." />
+</div>
+
+---
+
+<div class="narrative-slide">
+  <img src="/ai_writing_emails.png" style="max-height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.15);" />
+  <p style="margin-top: 2rem; font-size: 1.5rem;">Momento de desatar a mi IA jurídica...</p>
 </div>
 
 ---
