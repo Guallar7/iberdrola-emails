@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "slidev iberdrola.md",
+    "build": "slidev build iberdrola.md"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.14.1"
+  }
+}
