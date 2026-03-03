@@ -272,7 +272,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 11: Iberdrola Gaslighting #1
+# Email 11: Iberdrola Gaslighting Combinado
 
 <div class="email-card iberdrola">
   <div class="email-header">
@@ -280,94 +280,18 @@ clicks: 1
     <div class="meta">
       <span><b>De:</b> Iberdrola Clientes</span>
       <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 24/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Su contrato figura de baja por cambio de comercializadora, no por desistimiento. No localizo su solicitud del 17/01/2026. ¿Por qué canal la envió?" />
-</div>
-
----
-clicks: 1
----
-
-# Email 12: La IA Aporta Prueba
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
       <span><b>Fecha:</b> 25/01/2026</span>
     </div>
   </div>
   <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Fue por este mismo correo y por teléfono. Adjunto de nuevo el mail original del día 17." />
+  <Typewriter v-if="$clicks >= 1" text="Su contrato figura de baja por cambio de comercializadora, no por desistimiento. No localizamos su solicitud del 17/01/2026 y comprobamos que la baja fue el 18. Al estar tramitado el cambio antes de la solicitud, y por terminación del contrato antes de la prórroga, corresponde la penalización." />
 </div>
 
 ---
 clicks: 1
 ---
 
-# Email 13: Iberdrola Gaslighting #2
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 26/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Compruebo que la baja fue el día 18 y su documentación consta del día 19. Al estar tramitado el cambio antes de la solicitud, corresponde la penalización de 11,30 €." />
-</div>
-
----
-clicks: 1
----
-
-# Email 14: La IA Presenta Evidencia
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 27/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Puede ver claramente que el primer mail tiene fecha de 17 de enero." />
-</div>
-
----
-clicks: 1
----
-
-# Email 15: Iberdrola Nueva Justificación
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 28/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Le informo que, por terminación del contrato antes de la primera prórroga, debe abonar una penalización del 5% de la energía pendiente. Su suministro está activo con otra comercializadora." />
-</div>
-
----
-clicks: 1
----
-
-# Email 16: La IA Escalada Final
+# Email 12: La IA Escalada Final
 
 <div class="email-card david">
   <div class="email-header">
@@ -379,7 +303,7 @@ clicks: 1
     </div>
   </div>
   <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Están confundiendo cese con desistimiento. Les advierto que tergiversar estos conceptos es una práctica abusiva. La ley (Art. 68.1 y 102.1 RD 1/2007) prohíbe penalizaciones por desistimiento. Además, ejerzo mi derecho de supresión (derecho al olvido) según el RGPD y la LOPDGDD. Exijo la anulación de la factura y el borrado de mis datos personales." />
+  <Typewriter v-if="$clicks >= 1" text="Adjunto de nuevo el mail original con fecha de 17 de enero. Están confundiendo deliberadamente cese con desistimiento. La ley (Art. 68.1 y 102.1 RD 1/2007) prohíbe penalizaciones por desistimiento. Además, ejerzo mi derecho de supresión (derecho al olvido) según el RGPD y la LOPDGDD. Exijo la anulación de la factura y el borrado de mis datos personales. Atentamente, David Guallar." />
 </div>
 
 ---
