@@ -136,159 +136,73 @@ clicks: 1
 </div>
 
 ---
-clicks: 1
 ---
 
-# Email 4: La IA Explica
+# Email 4-11: El Bucle del Absurdo
+<div class="subtitle mt-2 opacity-80">Iberdrola entra en bucle y contradicciones múltiples</div>
 
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 18/01/2026</span>
-    </div>
+<!-- Adjusted container to hold the smaller emails in a dense pile -->
+<div class="relative w-full h-[450px] mt-4 flex justify-center items-center">
+  
+  <!-- Email 4: La IA Explica -->
+  <div v-click="1" class="absolute w-[45%] text-[0.6rem] bg-white rounded shadow-md border border-gray-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(-12deg) translate(-80px, -60px); z-index: 10;">
+    <div class="border-b border-gray-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> David Guallar | 18/01/2026</div>
+    <p class="leading-tight">Un compañero suyo me dijo por teléfono que, al cambiar de compañía tras el desistimiento, se me cobraría la penalización...</p>
   </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Un compañero suyo me dijo por teléfono que, al cambiar de compañía tras el desistimiento, se me cobraría la penalización por baja y que no contaría como desistimiento." />
+
+  <!-- Email 5: Iberdrola Confirma lo Incorrecto -->
+  <div v-click="2" class="absolute w-[45%] text-[0.6rem] bg-orange-50 rounded shadow-md border border-orange-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(8deg) translate(60px, -40px); z-index: 20;">
+    <div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Iberdrola Clientes | 19/01/2026</div>
+    <p class="leading-tight">Exacto, debía realizar antes el desistimiento para después realizar el cambio de comercializadora.</p>
+  </div>
+
+  <!-- Email 6: La IA Reitera -->
+  <div v-click="3" class="absolute w-[45%] text-[0.6rem] bg-white rounded shadow-md border border-gray-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(-6deg) translate(-40px, -10px); z-index: 30;">
+    <div class="border-b border-gray-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> David Guallar | 19/01/2026</div>
+    <p class="leading-tight">Eso es lo que hice. El orden fue: desistir y luego cambiar de comercializadora. Ustedes lo han registrado incorrectamente.</p>
+  </div>
+
+  <!-- Email 7: Iberdrola Contradicción #1 -->
+  <div v-click="4" class="absolute w-[45%] text-[0.6rem] bg-orange-50 rounded shadow-md border border-orange-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(15deg) translate(90px, 10px); z-index: 40;">
+    <div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Iberdrola Clientes | 20/01/2026</div>
+    <p class="leading-tight">Le informo que se ha emitido una factura de penalización... El desistimiento tarda unos días en ejecutarse; por ese motivo no tiene que solicitar el cambio...</p>
+  </div>
+
+  <!-- Email 8: La IA Cita la Ley -->
+  <div v-click="5" class="absolute w-[45%] text-[0.6rem] bg-white rounded shadow-md border border-gray-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(-15deg) translate(-70px, 30px); z-index: 50;">
+    <div class="border-b border-gray-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> David Guallar | 21/01/2026</div>
+    <p class="leading-tight">El desistimiento según el art. 102 del RD 1/2007 deja el contrato sin efectos desde su origen (ab initio)...</p>
+  </div>
+
+  <!-- Email 9: Iberdrola Contradicción #2 -->
+  <div v-click="6" class="absolute w-[45%] text-[0.6rem] bg-orange-50 rounded shadow-md border border-orange-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(4deg) translate(30px, 60px); z-index: 60;">
+    <div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Iberdrola Clientes | 22/01/2026</div>
+    <p class="leading-tight">Los desistimientos, en casos de cambio de compañía, se cobran aunque se realicen en plazo. El tiempo que ha estado con nosotros se factura.</p>
+  </div>
+
+  <!-- Email 10: La IA Resume -->
+  <div v-click="7" class="absolute w-[45%] text-[0.6rem] bg-white rounded shadow-md border border-gray-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(-8deg) translate(-20px, 90px); z-index: 70;">
+    <div class="border-b border-gray-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> David Guallar | 23/01/2026</div>
+    <p class="leading-tight">Confirmo que el consumo es procedente, pero la penalización no.</p>
+  </div>
+
+  <!-- Email 11: Iberdrola Gaslighting Combinado -->
+  <div v-click="8" class="absolute w-[50%] text-[0.65rem] bg-orange-100 rounded shadow-xl border-2 border-orange-400 p-3 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(2deg) translate(10px, 120px); z-index: 80;">
+    <div class="border-b border-orange-300 pb-1 mb-1 font-mono text-[0.55rem] font-bold text-orange-800"><b>De:</b> Iberdrola Clientes | 25/01/2026</div>
+    <p class="leading-tight font-semibold text-orange-900">Su contrato figura de baja por cambio de comercializadora, no por desistimiento. No localizamos su solicitud del 17/01/2026 y comprobamos que la baja fue el 18. Al estar tramitado el cambio antes de la solicitud, y por terminación del contrato antes de la prórroga, corresponde la penalización.</p>
+  </div>
+
 </div>
 
 ---
-clicks: 1
+layout: image
+image: /many_emails_later.png
+backgroundSize: cover
+transition: fade-out
 ---
 
-# Email 5: Iberdrola Confirma lo Incorrecto
+<!-- Meme Transition Slide -->
 
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 19/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Exacto, debía realizar antes el desistimiento para después realizar el cambio de comercializadora." />
-</div>
-
----
-clicks: 1
----
-
-# Email 6: La IA Reitera
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 19/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Eso es lo que hice. El orden fue: desistir y luego cambiar de comercializadora. Ustedes lo han registrado incorrectamente." />
-</div>
-
----
-clicks: 1
----
-
-# Email 7: Iberdrola Contradicción #1
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 20/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Le informo que se ha emitido una factura de penalización de 11,30 €. El desistimiento tarda unos días en ejecutarse; por ese motivo no tiene que solicitar el cambio de comercializadora. La factura es correcta." />
-</div>
-
----
-clicks: 1
----
-
-# Email 8: La IA Cita la Ley
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 21/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="El desistimiento según el art. 102 del RD 1/2007 deja el contrato sin efectos desde su origen (ab initio). Pagaré el consumo, pero no la penalización." />
-</div>
-
----
-clicks: 1
----
-
-# Email 9: Iberdrola Contradicción #2
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 22/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Los desistimientos, en casos de cambio de compañía, se cobran aunque se realicen en plazo. El tiempo que ha estado con nosotros se factura." />
-</div>
-
----
-clicks: 1
----
-
-# Email 10: La IA Resume
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 23/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Confirmo que el consumo es procedente, pero la penalización no." />
-</div>
-
----
-clicks: 1
----
-
-# Email 11: Iberdrola Gaslighting Combinado
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 25/01/2026</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Su contrato figura de baja por cambio de comercializadora, no por desistimiento. No localizamos su solicitud del 17/01/2026 y comprobamos que la baja fue el 18. Al estar tramitado el cambio antes de la solicitud, y por terminación del contrato antes de la prórroga, corresponde la penalización." />
-</div>
-
----
-clicks: 1
 ---
 
 # Email 12: La IA Escalada Final
