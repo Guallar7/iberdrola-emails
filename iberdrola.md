@@ -70,7 +70,7 @@ Infinitas contradicciones
 clicks: 1
 ---
 
-# Email 1: La IA (por David) Solicita Desistimiento
+# Acto II: La IA (por David) Entra en la Batalla (Email 1)
 
 <div class="email-card david">
   <div class="email-header">
@@ -101,7 +101,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 2: La IA Reclama
+# Email 2: La IA Exige Justicia
 
 <div class="email-card david">
   <div class="email-header">
@@ -120,7 +120,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 3: Iberdrola Mente #1
+# Email 3: Iberdrola lanza "Negación"
 
 <div class="email-card iberdrola">
   <div class="email-header">
@@ -138,7 +138,7 @@ clicks: 1
 ---
 ---
 
-# Email 4-11: El Bucle del Absurdo
+# Acto III: El Multiverso de las Excusas (Emails 4-11)
 <div class="subtitle mt-2 opacity-80">Iberdrola entra en bucle y contradicciones múltiples</div>
 
 <!-- Adjusted container to hold the smaller emails in a dense pile -->
@@ -204,8 +204,10 @@ transition: fade-out
 <!-- Meme Transition Slide -->
 
 ---
+clicks: 1
+---
 
-# Email 12: La IA Escalada Final
+# Acto IV: La Opción Nuclear (Email 12)
 
 <div class="email-card david">
   <div class="email-header">

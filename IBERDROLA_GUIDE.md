@@ -15,7 +15,8 @@ npx slidev iberdrola.md
 
 A **satiric email chain presentation** showing a real-world exchange between David Guallar and Iberdrola (Spanish electricity company) about a bogus 11.30€ penalty charge.
 
-**The comedy:** Iberdrola contradicts itself repeatedly while David calmly cites laws and evidence.
+**The story:** David was lured by the siren song of a "cheaper" electricity rate at Leroy Merlin, only for ChatGPT to reveal it was actually a 56% price hike disguised with a mandatory "Premium" pack. Naturally, he exercised his 14-day legal right of withdrawal. Iberdrola's response? "Sure, but we're still charging you a penalty for leaving."
+**The comedy:** Too busy for bureaucratic nonsense, David unleashes Gemini (his AI) to fight the battle. Watch as a cold, calculating AI calmly citing the law slowly drives a massive corporation into a spiral of hilarious, contradictory excuses over exactly 11.30€.
 
 ---
 
@@ -59,31 +60,27 @@ A **satiric email chain presentation** showing a real-world exchange between Dav
 
 ## The Story Arc
 
-### Act I: The Request (Slides 1-3)
-**David:** Formally requests withdrawal (desistimiento)
-**Narrator:** Iberdrola charges anyway
-**David:** Complains about the charge
+### Act I: The Trojan Horse Rate
+**The Pitch:** A wild Iberdrola commercial appears at Leroy Merlin! It uses *Deceptive Pricing*. It's super effective!
+**The Reality Check:** ChatGPT reads the fine print 3 days later: 56% more expensive, doubled power costs, and a sneaky, mandatory "Iberdrola Plus Premium" pack.
+**The Counter-Attack:** David exercises his 14-day legal right of withdrawal (desistimiento).
 
-### Act II: The Runaround (Slides 4-8)
-**Iberdrola:** "We never issued an invoice"
-**David:** "Your employee told me I'd be charged"
-**Iberdrola:** "Then you should've done it before the change"
-**David:** "That's exactly what I did"
-**Iberdrola:** "Never mind, here's your invoice for 11.30€"
+### Act II: Cry Havoc and Let Slip the AI
+**Email 1:** David's AI formally and politely requests the withdrawal.
+**The Plot Twist:** Iberdrola completely ignores the concept of withdrawal and slaps a penalty for "changing companies".
+**Email 2:** The AI swoops in, demanding they fix their files and drop the charge.
+**Email 3:** Iberdrola casts *Denial*: "What invoice? We haven't issued anything yet."
 
-### Act III: The Contradiction Spiral (Slides 9-13)
-**David:** Cites Art. 102 RD 1/2007 (law prohibits this penalty)
-**Iberdrola:** "We charge anyway"
-**David:** "The law says I only owe consumption"
-**Iberdrola:** "We can't find your withdrawal request"
-**David:** "Here's proof, dated Jan 17"
-**Iberdrola:** "Your docs are dated Jan 19"
+### Act III: The Multiverse of Excuses (Emails 4-11)
+*An 8-email rapid-fire rally where Iberdrola's logic collapses in real-time:*
+- **Excuse 1:** "You had to withdraw *before* changing companies!" (AI: "I literally did.")
+- **Excuse 2:** "Ah, but withdrawals take days, so you shouldn't have changed!" (Wait, didn't you just say...?)
+- **Excuse 3:** "Okay look, withdrawals are charged anyway." (AI drops Art. 102 RD 1/2007 like a mic, proving that's illegal).
+- **The Ultimate Gaslighting:** "New phone, who dis? We never got your January 17th request, you left on the 18th. Pay the penalty."
 
-### Act IV: The Final Escalation (Slides 14-17)
-**David:** Presents date evidence again
-**Iberdrola:** "Actually, it's a 5% penalty for early termination"
-**David:** INVOKES RGPD + GDPR + Right to Be Forgotten
-**End:** *Awaiting Iberdrola's response...*
+### Act IV: The Nuclear Option (Email 12)
+**The Final Boss Move:** The AI attaches the original email (again), calls out their deliberate confusion of *cease* with *withdrawal*, quotes two more laws, and then drops the GDPR nuke: the **Right to be Forgotten (derecho de supresión)**. "Cancel the invoice and delete my data from your existence."
+**End:** *Iberdrola is currently rebooting. Awaiting response...*
 
 ---
 
