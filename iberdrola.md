@@ -120,7 +120,7 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 3: Iberdrola lanza "Negación"
+# Email 3: Iberdrola confirma el cobro
 
 <div class="email-card iberdrola">
   <div class="email-header">
@@ -132,7 +132,7 @@ clicks: 1
     </div>
   </div>
   <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="He revisado su contrato y compruebo que aún no se ha emitido ninguna factura. Nos consta fecha de inicio 14/01/2026 y fin 18/01/2026." />
+  <Typewriter v-if="$clicks >= 1" text="Hemos revisado su contrato y le confirmamos que, de acuerdo con las condiciones contratadas, se aplica una penalización del 5% por cese anticipado del contrato antes de transcurrido el primer año. Nos consta fecha de inicio 14/01/2026 y fin 18/01/2026." />
 </div>
 
 ---
@@ -226,10 +226,173 @@ clicks: 1
 
 # FIN
 
-<div style="text-align: center; padding: 3rem;">
-  <h1 style="font-size: 3rem; margin-bottom: 2rem;">⚖️</h1>
-  <h2 style="font-size: 2rem; margin-bottom: 1rem; opacity: 0.8;">Sigue en espera</h2>
-  <p style="font-size: 1.3rem; opacity: 0.6;">Respuesta de Iberdrola: TBD</p>
+<div class="victory-container">
+  <div class="victory-card">
+    <div class="trophy">🏆</div>
+    <h1 class="victory-title">Victoria Total</h1>
+    <h2 class="victory-subtitle">David <span class="vs">vs</span> Goliat</h2>
+    
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-value">1</span>
+        <span class="stat-label">David</span>
+      </div>
+      <div class="stat-divider">-</div>
+      <div class="stat-item">
+        <span class="stat-value text-red-500">0</span>
+        <span class="stat-label">Iberdrola</span>
+      </div>
+    </div>
+
+    <div class="victory-message">
+      <p>Iberdrola anuló la penalización.</p>
+      <p class="real-name-note">Y sí, me llamo David de verdad. 😄</p>
+    </div>
+
+    <div class="footer-tags">
+      <span>LA IA: 1</span>
+      <span class="dot">•</span>
+      <span>BUROCRACIA: 0</span>
+    </div>
+  </div>
 </div>
+
+<style>
+.victory-container {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top right, rgba(26, 58, 107, 0.05), transparent),
+              radial-gradient(circle at bottom left, rgba(255, 102, 0, 0.05), transparent);
+}
+
+.victory-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  animation: slideUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.trophy {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  filter: drop-shadow(0 10px 15px rgba(255, 215, 0, 0.3));
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.victory-title {
+  font-size: 3.5rem !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #1a3a6b 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem !important;
+}
+
+.victory-subtitle {
+  font-size: 1.8rem !important;
+  color: #4b5563;
+  font-weight: 600 !important;
+  margin-bottom: 2rem !important;
+}
+
+.vs {
+  font-style: italic;
+  font-weight: 300;
+  opacity: 0.6;
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+.stats-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(0,0,0,0.03);
+  border-radius: 16px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #1a3a6b;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
+  margin-top: 0.5rem;
+}
+
+.stat-divider {
+  font-size: 2rem;
+  font-weight: 300;
+  opacity: 0.2;
+}
+
+.victory-message {
+  margin-bottom: 2rem;
+}
+
+.victory-message p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.real-name-note {
+  font-size: 0.95rem !important;
+  color: #6b7280 !important;
+  margin-top: 0.5rem;
+  font-weight: 400 !important;
+}
+
+.footer-tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #9ca3af;
+  text-transform: uppercase;
+}
+
+.dot {
+  opacity: 0.3;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+</style>
+
 
 

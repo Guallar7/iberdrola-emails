@@ -68,19 +68,22 @@ A **satiric email chain presentation** showing a real-world exchange between Dav
 ### Act II: Cry Havoc and Let Slip the AI
 **Email 1:** David's AI formally and politely requests the withdrawal.
 **The Plot Twist:** Iberdrola completely ignores the concept of withdrawal and slaps a penalty for "changing companies".
-**Email 2:** The AI swoops in, demanding they fix their files and drop the charge.
-**Email 3:** Iberdrola casts *Denial*: "What invoice? We haven't issued anything yet."
+### Act II: El Caballo de Troya y el Desistimiento
+**Email 1:** La IA de David solicita formalmente el desistimiento.
+**El Giro:** Iberdrola ignora el concepto de desistimiento y aplica una penalización por "cese anticipado".
+**Email 2:** La IA contraataca, exigiendo la anulación del cargo y citando el plazo legal.
+**Email 3:** Iberdrola lanza *Confirmación*: "Sí, te cobramos 11,30 € por irte antes de un año".
 
-### Act III: The Multiverse of Excuses (Emails 4-11)
-*An 8-email rapid-fire rally where Iberdrola's logic collapses in real-time:*
-- **Excuse 1:** "You had to withdraw *before* changing companies!" (AI: "I literally did.")
-- **Excuse 2:** "Ah, but withdrawals take days, so you shouldn't have changed!" (Wait, didn't you just say...?)
-- **Excuse 3:** "Okay look, withdrawals are charged anyway." (AI drops Art. 102 RD 1/2007 like a mic, proving that's illegal).
-- **The Ultimate Gaslighting:** "New phone, who dis? We never got your January 17th request, you left on the 18th. Pay the penalty."
+### Act III: El Multiverso de las Excusas (Emails 4-11)
+*Un rally de 8 emails donde la lógica de Iberdrola colapsa en tiempo real:*
+- **Excusa 1:** "¡Tenía que haber desistido antes de cambiar de compañía!" (IA: "Es literalmente lo que hice").
+- **Excusa 2:** "Ah, pero los desistimientos tardan días, ¡así que no debería haber cambiado!". (Espera, ¿no acabas de decir...?)
+- **Excusa 3:** "Mira, los desistimientos se cobran igual". (La IA suelta el Art. 102 RD 1/2007 como un mic drop, demostrando que eso es ilegal).
+- **El Gaslighting Definitivo:** "¿Quién eres? No nos llegó tu solicitud del 17, te fuiste el 18. Paga la penalización".
 
-### Act IV: The Nuclear Option (Email 12)
-**The Final Boss Move:** The AI attaches the original email (again), calls out their deliberate confusion of *cease* with *withdrawal*, quotes two more laws, and then drops the GDPR nuke: the **Right to be Forgotten (derecho de supresión)**. "Cancel the invoice and delete my data from your existence."
-**End:** *Iberdrola is currently rebooting. Awaiting response...*
+### Act IV: La Opción Nuclear y Victoria de David (Email 12)
+**El Movimiento Final:** La IA adjunta el correo original (otra vez), denuncia la confusión deliberada entre *cese* y *desistimiento*, cita dos leyes más y lanza el nuke de la LOPD: el **Derecho de Supresión (derecho al olvido)**. "Anula la factura y borra mi existencia de tus datos".
+**Final:** ¡Victoria! David vence a Goliat (Iberdrola). La penalización es anulada y David sonríe ante la cámara.
 
 ---
 
