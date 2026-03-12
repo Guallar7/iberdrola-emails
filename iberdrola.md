@@ -8,17 +8,12 @@ fonts:
 title: La Kafkiana Historia del Desistimiento
 info: |
   Una presentación satirica sobre burocracia corporativa
-  David Guallar vs. Iberdrola — 11,30 €
+  David Guallar vs. Iberdrola 
 ---
 
 # La Kafkiana Historia del Desistimiento
 
 *vs. Iberdrola*
-
-<div class="pt-8 text-lg opacity-80">
-11,30 € de penalización<br>
-Infinitas contradicciones
-</div>
 
 ---
 disabled: true
