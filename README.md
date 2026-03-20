@@ -1,8 +1,8 @@
 # La Kafkiana Historia del Desistimiento
 
-> *David Guallar vs. Iberdrola — 11,30 €*
+> *David Guallar vs. Homecenter — 11,30 €*
 
-A satiric Slidev presentation of a real email chain between David Guallar and Iberdrola (Spanish electricity company). Each slide is one email. Each email body types out character by character when you press Space or click — for maximum comedic timing as Iberdrola contradicts itself repeatedly over a bogus €11.30 penalty.
+A satiric Slidev presentation of a real email chain between David Guallar and Homecenter (Spanish electricity company). Each slide is one email. Each email body types out character by character when you press Space or click — for maximum comedic timing as Homecenter contradicts itself repeatedly over a bogus €11.30 penalty.
 
 ## Run locally
 

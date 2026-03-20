@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "slidev iberdrola.md",
-    "build": "slidev build iberdrola.md"
+    "dev": "slidev homecenter.md",
+    "build": "slidev build homecenter.md"
   },
   "dependencies": {
     "@slidev/theme-default": "^0.25.0"

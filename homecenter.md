@@ -8,12 +8,12 @@ fonts:
 title: La Kafkiana Historia del Desistimiento
 info: |
   Una presentación satirica sobre burocracia corporativa
-  David Guallar vs. Iberdrola 
+  David Guallar vs. Homecenter 
 ---
 
 # La Kafkiana Historia del Desistimiento
 
-*vs. Iberdrola*
+*vs. Homecenter*
 
 ---
 disabled: true
@@ -44,7 +44,7 @@ disabled: true
 <ul class="list-disc ml-4 text-gray-700 text-sm leading-relaxed">
 <li><b>≈ 56% más caro</b> (+15,50 € al mes con mi consumo).</li>
 <li>Coste de potencia duplicado frente a Energía XXI.</li>
-<li><b>"Pack Iberdrola Hogar"</b> obligatorio (10,83 €/mes).</li>
+<li><b>"Pack Homecenter Hogar"</b> obligatorio (10,83 €/mes).</li>
 <li>Penalización del 5% por baja en el primer año.</li>
 </ul>
 </div>
@@ -75,7 +75,7 @@ clicks: 1
 <div class="stripe"></div>
 <div class="meta">
 <span><b>De:</b> David Guallar</span>
-<span><b>Para:</b> Iberdrola Clientes</span>
+<span><b>Para:</b> Homecenter Clientes</span>
 <span><b>Fecha:</b> 17/01/2026</span>
 </div>
 </div>
@@ -89,7 +89,7 @@ clicks: 1
 
 <div class="narrative-slide">
 <img src="/realizing_scam.png" style="max-height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.15); margin-bottom: 2rem;" />
-<h2 style="font-size: 1.8rem; color: #ff6600;">⚠️ Iberdrola procede a cobrarme por cancelar el contrato</h2>
+<h2 style="font-size: 1.8rem; color: #ff6600;">⚠️ Homecenter procede a cobrarme por cancelar el contrato</h2>
 <p style="font-size: 1.3rem; margin-top: 1rem; opacity: 0.8;">
 Ignorando completamente el desistimiento...
 </p>
@@ -106,7 +106,7 @@ clicks: 1
 <div class="stripe"></div>
 <div class="meta">
 <span><b>De:</b> David Guallar</span>
-<span><b>Para:</b> Iberdrola Clientes</span>
+<span><b>Para:</b> Homecenter Clientes</span>
 <span><b>Fecha:</b> 18/01/2026</span>
 </div>
 </div>
@@ -118,13 +118,13 @@ clicks: 1
 clicks: 1
 ---
 
-# Email 3: Iberdrola confirma el cobro
+# Email 3: Homecenter confirma el cobro
 
-<div class="email-card iberdrola">
+<div class="email-card Homecenter">
 <div class="email-header">
 <div class="stripe"></div>
 <div class="meta">
-<span><b>De:</b> Iberdrola Clientes</span>
+<span><b>De:</b> Homecenter Clientes</span>
 <span><b>Para:</b> David Guallar</span>
 <span><b>Fecha:</b> 18/01/2026</span>
 </div>
@@ -136,7 +136,7 @@ clicks: 1
 ---
 
 # Acto II: El Multiverso de las Excusas (Emails 4-11)
-<div class="subtitle mt-2 opacity-80">Iberdrola entra en bucle y contradicciones múltiples</div>
+<div class="subtitle mt-2 opacity-80">Homecenter entra en bucle y contradicciones múltiples</div>
 
 <div class="relative w-full h-[450px] mt-4 flex justify-center items-center">
 <div v-click="1" class="absolute w-[45%] text-[0.6rem] bg-white rounded shadow-md border border-gray-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(-12deg) translate(-80px, -60px); z-index: 10;">
@@ -144,7 +144,7 @@ clicks: 1
 <p class="leading-tight">Un compañero suyo me dijo por teléfono que, al cambiar de compañía tras el desistimiento, se me cobraría la penalización...</p>
 </div>
 <div v-click="2" class="absolute w-[45%] text-[0.6rem] bg-orange-50 rounded shadow-md border border-orange-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(8deg) translate(60px, -40px); z-index: 20;">
-<div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Iberdrola Clientes | 19/01/2026</div>
+<div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Homecenter Clientes | 19/01/2026</div>
 <p class="leading-tight">Exacto, debía realizar antes el desistimiento para después realizar el cambio de comercializadora.</p>
 </div>
 <div v-click="3" class="absolute w-[45%] text-[0.6rem] bg-white rounded shadow-md border border-gray-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(-6deg) translate(-40px, -10px); z-index: 30;">
@@ -152,7 +152,7 @@ clicks: 1
 <p class="leading-tight">Eso es lo que hice. El orden fue: desistir y luego cambiar de comercializadora. Ustedes lo han registrado incorrectamente.</p>
 </div>
 <div v-click="4" class="absolute w-[45%] text-[0.6rem] bg-orange-50 rounded shadow-md border border-orange-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(15deg) translate(90px, 10px); z-index: 40;">
-<div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Iberdrola Clientes | 20/01/2026</div>
+<div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Homecenter Clientes | 20/01/2026</div>
 <p class="leading-tight">Le informo que se ha emitido una factura de penalización... El desistimiento tarda unos días en ejecutarse; por ese motivo no tiene que solicitar el cambio...</p>
 </div>
 <div v-click="5" class="absolute w-[45%] text-[0.6rem] bg-white rounded shadow-md border border-gray-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(-15deg) translate(-70px, 30px); z-index: 50;">
@@ -160,7 +160,7 @@ clicks: 1
 <p class="leading-tight">El desistimiento según el art. 102 del RD 1/2007 deja el contrato sin efectos desde su origen (ab initio)...</p>
 </div>
 <div v-click="6" class="absolute w-[45%] text-[0.6rem] bg-orange-50 rounded shadow-md border border-orange-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(4deg) translate(30px, 60px); z-index: 60;">
-<div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Iberdrola Clientes | 22/01/2026</div>
+<div class="border-b border-orange-100 pb-1 mb-1 font-mono text-[0.5rem] opacity-70"><b>De:</b> Homecenter Clientes | 22/01/2026</div>
 <p class="leading-tight">Los desistimientos, en casos de cambio de compañía, se cobran aunque se realicen en plazo. El tiempo que ha estado con nosotros se factura.</p>
 </div>
 <div v-click="7" class="absolute w-[45%] text-[0.6rem] bg-white rounded shadow-md border border-gray-200 p-2 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(-8deg) translate(-20px, 90px); z-index: 70;">
@@ -168,7 +168,7 @@ clicks: 1
 <p class="leading-tight">Confirmo que el consumo es procedente, pero la penalización no.</p>
 </div>
 <div v-click="8" class="absolute w-[50%] text-[0.65rem] bg-orange-100 rounded shadow-xl border-2 border-orange-400 p-3 transition-all duration-500 hover:-translate-y-2 hover:z-[100]" style="transform: rotate(2deg) translate(10px, 120px); z-index: 80;">
-<div class="border-b border-orange-300 pb-1 mb-1 font-mono text-[0.55rem] font-bold text-orange-800"><b>De:</b> Iberdrola Clientes | 25/01/2026</div>
+<div class="border-b border-orange-300 pb-1 mb-1 font-mono text-[0.55rem] font-bold text-orange-800"><b>De:</b> Homecenter Clientes | 25/01/2026</div>
 <p class="leading-tight font-semibold text-orange-900">Su contrato figura de baja por cambio de comercializadora, no por desistimiento. No localizamos su solicitud del 17/01/2026 y comprobamos que la baja fue el 18. Al estar tramitado el cambio antes de la solicitud, y por terminación del contrato antes de la prórroga, corresponde la penalización.</p>
 </div>
 </div>
@@ -193,7 +193,7 @@ clicks: 1
 <div class="stripe"></div>
 <div class="meta">
 <span><b>De:</b> David Guallar</span>
-<span><b>Para:</b> Iberdrola Clientes</span>
+<span><b>Para:</b> Homecenter Clientes</span>
 <span><b>Fecha:</b> 29/01/2026</span>
 </div>
 </div>
@@ -219,12 +219,12 @@ clicks: 1
 <div class="stat-divider">-</div>
 <div class="stat-item">
 <span class="stat-value text-red-500">0</span>
-<span class="stat-label">Iberdrola</span>
+<span class="stat-label">Homecenter</span>
 </div>
 </div>
 
 <div class="victory-message">
-<p>Iberdrola anuló la penalización.</p>
+<p>Homecenter anuló la penalización.</p>
 </div>
 
 <div class="footer-tags">
