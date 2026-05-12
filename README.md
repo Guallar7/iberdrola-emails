@@ -20,6 +20,6 @@ npm run dev
 
 ## Deploy to GitHub Pages
 
-Push to `main` and GitHub Actions will build and deploy automatically.
+Push to `master` and GitHub Actions will build and deploy automatically.
 
 Enable GitHub Pages in your repo settings → Source: **GitHub Actions**.

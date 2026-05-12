@@ -6,38 +6,83 @@ fonts:
   mono: 'IBM Plex Mono'
   provider: google
 title: La Kafkiana Historia del Desistimiento
+record: false
+wakeLock: false
 info: |
   Una presentación satirica sobre burocracia corporativa
-  David Guallar vs. Iberdrola — 11,30 €
+  David Guallar vs. Iberdrola 
 ---
 
 # La Kafkiana Historia del Desistimiento
 
 *vs. Iberdrola*
 
-<div class="pt-8 text-lg opacity-80">
-11,30 € de penalización<br>
-Infinitas contradicciones
+---
+disabled: true
+---
+
+<div class="narrative-slide">
+<img class="narrative-image" src="./assets/signing_contract.png" alt="Persona firmando un contrato" />
+<p>Todo empezó muy bien, firmando un contrato...</p>
+</div>
+
+---
+disabled: true
+---
+
+# El Origen del Desistimiento
+
+<v-click>
+<div class="grid grid-cols-2 gap-6 mt-2">
+<div class="bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-200">
+<h3 class="text-lg mb-2 text-green-600 font-bold">La Promesa</h3>
+<ul class="list-disc ml-4 text-gray-700 text-sm leading-relaxed">
+<li>Una tarifa eléctrica <b>más barata</b>.</li>
+<li>Descuento del 20% en el consumo de energía.</li>
+</ul>
+</div>
+<div class="bg-red-50 p-5 rounded-lg shadow-sm border border-red-100">
+<h3 class="text-lg mb-2 text-red-600 font-bold">La Realidad (Revelada por ChatGPT)</h3>
+<ul class="list-disc ml-4 text-gray-700 text-sm leading-relaxed">
+<li><b>≈ 56% más caro</b> (+15,50 € al mes con mi consumo).</li>
+<li>Coste de potencia duplicado frente a Energía XXI.</li>
+<li><b>"Pack Iberdrola Hogar"</b> obligatorio (10,83 €/mes).</li>
+<li>Penalización del 5% por baja en el primer año.</li>
+</ul>
+</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="notice-box mt-4 p-3 bg-orange-100 rounded-lg text-center font-semibold text-orange-800 border border-orange-200 shadow-sm">
+Al darme cuenta de las trampas a los 3 días de firmar, decido ejercer mi derecho legal de desistimiento (14 días).
+</div>
+</v-click>
+
+---
+
+<div class="narrative-slide">
+<img class="narrative-image" src="./assets/ai_writing_emails.png" alt="IA escribiendo correos" />
+<p class="narrative-copy">No tengo tiempo para lidiar con su burocracia.<br><span class="opacity-80">Le encargo la tarea a mi IA personal para que tramite el desistimiento en mi nombre.</span></p>
 </div>
 
 ---
 clicks: 1
 ---
 
-# Email 1: David Solicita Desistimiento
+# Acto I: La IA (por David) Entra en la Batalla (Email 1)
 
 <div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 17/01/2026</span>
-      <span><b>Asunto:</b> Solicitud de desistimiento</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Por la presente, le comunico mi voluntad de ejercer el derecho de desistimiento respecto al contrato o pedido realizado el pasado día 14/01/2026. De acuerdo con la normativa vigente, solicito la cancelación del mismo. Agradecería que me confirmaran la recepción de este mensaje y me indicaran los pasos a seguir para finalizar el proceso. Adjunto documento de desistimiento firmado así como mi dni. Atentamente, David Guallar." />
+<div class="email-header">
+<div class="stripe"></div>
+<div class="meta">
+<span><b>De:</b> David Guallar</span>
+<span><b>Para:</b> Iberdrola Clientes</span>
+<span><b>Fecha:</b> 17/01/2026</span>
+</div>
+</div>
+<hr class="email-sep" />
+<Typewriter v-if="$clicks >= 1" text="Por la presente, comunico formalmente mi decisión de ejercer el derecho de desistimiento del contrato formalizado el 14/01/2026, de conformidad con la normativa legal vigente. Ruego me confirmen la tramitación de esta solicitud. Adjunto formulario firmado y copia de mi DNI. Atentamente, David Guallar." />
 </div>
 
 ---
@@ -45,395 +90,150 @@ clicks: 1
 # Interlude
 
 <div class="narrative-slide">
-  <h2 style="font-size: 1.8rem; color: #ff6600;">⚠️ Iberdrola procede a cobrar</h2>
-  <p style="font-size: 1.3rem; margin-top: 2rem; opacity: 0.8;">
-    Ignorando completamente el desistimiento...
-  </p>
+<img class="narrative-image narrative-image-sm" src="./assets/realizing_scam.png" alt="Persona dándose cuenta del problema" />
+<h2 class="warning-title">⚠️ Iberdrola procede a cobrarme por cancelar el contrato</h2>
+<p class="warning-copy">
+Ignorando completamente el desistimiento...
+</p>
 </div>
 
 ---
 clicks: 1
 ---
 
-# Email 2: David Reclama
+# Email 2: La IA Exige Justicia
 
 <div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 17/01/2026</span>
-      <span><b>Asunto:</b> Reclamación por cobro improcedente</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text='Reclamo formalmente el cobro de una penalización improcedente. Suscribí el servicio el 14/01/2026 y desistí el 17/01/2026, dentro del plazo legal. Ustedes han tramitado una "baja por cambio de comercializadora" en lugar del desistimiento. Solicito la anulación del cargo y la rectificación de mis archivos.' />
+<div class="email-header">
+<div class="stripe"></div>
+<div class="meta">
+<span><b>De:</b> David Guallar</span>
+<span><b>Para:</b> Iberdrola Clientes</span>
+<span><b>Fecha:</b> 18/01/2026</span>
+</div>
+</div>
+<hr class="email-sep" />
+<Typewriter v-if="$clicks >= 1" text='Reclamo formalmente el cobro de una penalización improcedente. Suscribí el servicio el 14/01/2026 y desistí el 17/01/2026, dentro del plazo legal. Ustedes han tramitado una "baja por cambio de comercializadora" en lugar del desistimiento. Solicito la anulación del cargo y la rectificación de mis archivos.' />
 </div>
 
 ---
 clicks: 1
 ---
 
-# Email 3: Iberdrola Mente #1
+# Email 3: Iberdrola confirma el cobro
 
 <div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 18/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="He revisado su contrato y compruebo que aún no se ha emitido ninguna factura. Nos consta fecha de inicio 14/01/2026 y fin 18/01/2026." />
+<div class="email-header">
+<div class="stripe"></div>
+<div class="meta">
+<span><b>De:</b> Iberdrola Clientes</span>
+<span><b>Para:</b> David Guallar</span>
+<span><b>Fecha:</b> 18/01/2026</span>
 </div>
+</div>
+<hr class="email-sep" />
+<Typewriter v-if="$clicks >= 1" text="Hemos revisado su contrato y le confirmamos que, de acuerdo con las condiciones contratadas, se aplica una penalización del 5% por cese anticipado del contrato antes de transcurrido el primer año. Nos consta fecha de inicio 14/01/2026 y fin 18/01/2026." />
+</div>
+
+---
+
+# Acto II: El Multiverso de las Excusas (Emails 4-11)
+<div class="subtitle mt-2 opacity-80">Iberdrola entra en bucle y contradicciones múltiples</div>
+
+<div class="mail-stack">
+<div v-click="1" class="mail-note mail-note-1 from-david">
+<div class="mail-note-meta"><b>De:</b> David Guallar | 18/01/2026</div>
+<p>Un compañero suyo me dijo por teléfono que, al cambiar de compañía tras el desistimiento, se me cobraría la penalización...</p>
+</div>
+<div v-click="2" class="mail-note mail-note-2 from-iberdrola">
+<div class="mail-note-meta"><b>De:</b> Iberdrola Clientes | 19/01/2026</div>
+<p>Exacto, debía realizar antes el desistimiento para después realizar el cambio de comercializadora.</p>
+</div>
+<div v-click="3" class="mail-note mail-note-3 from-david">
+<div class="mail-note-meta"><b>De:</b> David Guallar | 19/01/2026</div>
+<p>Eso es lo que hice. El orden fue: desistir y luego cambiar de comercializadora. Ustedes lo han registrado incorrectamente.</p>
+</div>
+<div v-click="4" class="mail-note mail-note-4 from-iberdrola">
+<div class="mail-note-meta"><b>De:</b> Iberdrola Clientes | 20/01/2026</div>
+<p>Le informo que se ha emitido una factura de penalización... El desistimiento tarda unos días en ejecutarse; por ese motivo no tiene que solicitar el cambio...</p>
+</div>
+<div v-click="5" class="mail-note mail-note-5 from-david">
+<div class="mail-note-meta"><b>De:</b> David Guallar | 21/01/2026</div>
+<p>El desistimiento según el art. 102 del RD 1/2007 deja el contrato sin efectos desde su origen (ab initio)...</p>
+</div>
+<div v-click="6" class="mail-note mail-note-6 from-iberdrola">
+<div class="mail-note-meta"><b>De:</b> Iberdrola Clientes | 22/01/2026</div>
+<p>Los desistimientos, en casos de cambio de compañía, se cobran aunque se realicen en plazo. El tiempo que ha estado con nosotros se factura.</p>
+</div>
+<div v-click="7" class="mail-note mail-note-7 from-david">
+<div class="mail-note-meta"><b>De:</b> David Guallar | 23/01/2026</div>
+<p>Confirmo que el consumo es procedente, pero la penalización no.</p>
+</div>
+<div v-click="8" class="mail-note mail-note-8 from-iberdrola is-final">
+<div class="mail-note-meta"><b>De:</b> Iberdrola Clientes | 25/01/2026</div>
+<p>Su contrato figura de baja por cambio de comercializadora, no por desistimiento. No localizamos su solicitud del 17/01/2026 y comprobamos que la baja fue el 18. Al estar tramitado el cambio antes de la solicitud, y por terminación del contrato antes de la prórroga, corresponde la penalización.</p>
+</div>
+</div>
+
+---
+layout: image
+image: ./assets/many_emails_later.png
+backgroundSize: cover
+transition: fade-out
+---
+
+<!-- Meme Transition Slide -->
 
 ---
 clicks: 1
 ---
 
-# Email 4: David Explica
+# Acto III: La Opción Nuclear (Email 12)
 
 <div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 18/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Un compañero suyo me dijo por teléfono que, al cambiar de compañía tras el desistimiento, se me cobraría la penalización por baja y que no contaría como desistimiento." />
+<div class="email-header">
+<div class="stripe"></div>
+<div class="meta">
+<span><b>De:</b> David Guallar</span>
+<span><b>Para:</b> Iberdrola Clientes</span>
+<span><b>Fecha:</b> 29/01/2026</span>
 </div>
-
----
-clicks: 1
----
-
-# Email 5: Iberdrola Confirma lo Incorrecto
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 19/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Exacto, debía realizar antes el desistimiento para después realizar el cambio de comercializadora." />
 </div>
-
----
-clicks: 1
----
-
-# Email 6: David Reitera
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 19/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Eso es lo que hice. El orden fue: desistir y luego cambiar de comercializadora. Ustedes lo han registrado incorrectamente." />
-</div>
-
----
-clicks: 1
----
-
-# Email 7: Iberdrola Contradicción #1
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 20/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Le informo que se ha emitido una factura de penalización de 11,30 €. El desistimiento tarda unos días en ejecutarse; por ese motivo no tiene que solicitar el cambio de comercializadora. La factura es correcta." />
-</div>
-
----
-clicks: 1
----
-
-# Email 8: David Cita la Ley
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 21/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación — Art. 102 RD 1/2007</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="El desistimiento según el art. 102 del RD 1/2007 deja el contrato sin efectos desde su origen (ab initio). Pagaré el consumo, pero no la penalización." />
-</div>
-
----
-clicks: 1
----
-
-# Email 9: Iberdrola Contradicción #2
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 22/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Los desistimientos, en casos de cambio de compañía, se cobran aunque se realicen en plazo. El tiempo que ha estado con nosotros se factura." />
-</div>
-
----
-clicks: 1
----
-
-# Email 10: David Resume
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 23/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Confirmo que el consumo es procedente, pero la penalización no." />
-</div>
-
----
-clicks: 1
----
-
-# Email 11: Iberdrola Gaslighting #1
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 24/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Su contrato figura de baja por cambio de comercializadora, no por desistimiento. No localizo su solicitud del 17/01/2026. ¿Por qué canal la envió?" />
-</div>
-
----
-clicks: 1
----
-
-# Email 12: David Aporta Prueba
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 25/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación — Prueba adjunta</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Fue por este mismo correo y por teléfono. Adjunto de nuevo el mail original del día 17." />
-</div>
-
----
-clicks: 1
----
-
-# Email 13: Iberdrola Gaslighting #2
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 26/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Compruebo que la baja fue el día 18 y su documentación consta del día 19. Al estar tramitado el cambio antes de la solicitud, corresponde la penalización de 11,30 €." />
-</div>
-
----
-clicks: 1
----
-
-# Email 14: David Presenta Evidencia
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 27/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Puede ver claramente que el primer mail tiene fecha de 17 de enero." />
-</div>
-
----
-clicks: 1
----
-
-# Email 15: Iberdrola Nueva Justificación
-
-<div class="email-card iberdrola">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> Iberdrola Clientes</span>
-      <span><b>Para:</b> David Guallar</span>
-      <span><b>Fecha:</b> 28/01/2026</span>
-      <span><b>Asunto:</b> RE: Reclamación</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Le informo que, por terminación del contrato antes de la primera prórroga, debe abonar una penalización del 5% de la energía pendiente. Su suministro está activo con otra comercializadora." />
-</div>
-
----
-clicks: 1
----
-
-# Email 16: David Escalada Final
-
-<div class="email-card david">
-  <div class="email-header">
-    <div class="stripe"></div>
-    <div class="meta">
-      <span><b>De:</b> David Guallar</span>
-      <span><b>Para:</b> Iberdrola Clientes</span>
-      <span><b>Fecha:</b> 29/01/2026</span>
-      <span><b>Asunto:</b> Reclamación Final — RGPD Art. 17</span>
-    </div>
-  </div>
-  <hr class="email-sep" />
-  <Typewriter v-if="$clicks >= 1" text="Están confundiendo cese con desistimiento. Les advierto que tergiversar estos conceptos es una práctica abusiva. La ley (Art. 68.1 y 102.1 RD 1/2007) prohíbe penalizaciones por desistimiento. Además, ejerzo mi derecho de supresión (derecho al olvido) según el RGPD y la LOPDGDD. Exijo la anulación de la factura y el borrado de mis datos personales." />
+<hr class="email-sep" />
+<Typewriter v-if="$clicks >= 1" text="Adjunto de nuevo el mail original con fecha de 17 de enero. Están confundiendo deliberadamente cese con desistimiento. La ley (Art. 68.1 y 102.1 RD 1/2007) prohíbe penalizaciones por desistimiento. Además, ejerzo mi derecho de supresión (derecho al olvido) según el RGPD y la LOPDGDD. Exijo la anulación de la factura y el borrado de mis datos personales. Atentamente, David Guallar." />
 </div>
 
 ---
 
-# FIN
+<!-- Final Slide -->
 
-<div style="text-align: center; padding: 3rem;">
-  <h1 style="font-size: 3rem; margin-bottom: 2rem;">⚖️</h1>
-  <h2 style="font-size: 2rem; margin-bottom: 1rem; opacity: 0.8;">Sigue en espera</h2>
-  <p style="font-size: 1.3rem; opacity: 0.6;">Respuesta de Iberdrola: TBD</p>
+<div class="victory-container">
+<div class="victory-card">
+<div class="trophy">🏆</div>
+<h1 class="victory-title">Victoria Total</h1>
+<h2 class="victory-subtitle">David <span class="vs">vs</span> Goliat</h2>
+
+<div class="stats-grid">
+<div class="stat-item">
+<span class="stat-value">1</span>
+<span class="stat-label">David</span>
+</div>
+<div class="stat-divider">-</div>
+<div class="stat-item">
+<span class="stat-value text-red-500">0</span>
+<span class="stat-label">Iberdrola</span>
+</div>
 </div>
 
-<style>
-.slidev-layout {
-  background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
-  font-family: 'IBM Plex Sans', sans-serif;
-  padding: 2rem;
-}
+<div class="victory-message">
+<p>Iberdrola anuló la penalización.</p>
+</div>
 
-.email-card {
-  background: white;
-  border-radius: 6px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  overflow: hidden;
-  max-width: 800px;
-  margin: 0 auto;
-  height: 100%;
-}
+<div class="footer-tags">
+<span>LA IA: 1</span>
+<span class="dot">•</span>
+<span>BUROCRACIA: 0</span>
+</div>
+</div>
+</div>
 
-.email-card.david .stripe { background: #1a3a6b; }
-.email-card.iberdrola .stripe { background: #ff6600; }
-
-.stripe {
-  width: 8px;
-  flex-shrink: 0;
-}
-
-.email-header {
-  display: flex;
-  gap: 1rem;
-  padding: 1.5rem;
-  border-bottom: 1px solid #e0e0e0;
-  align-items: flex-start;
-}
-
-.meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  font-size: 0.9rem;
-  color: #666;
-  flex: 1;
-}
-
-.meta b {
-  color: #333;
-}
-
-.email-sep {
-  border: none;
-  border-top: 1px solid #e0e0e0;
-  margin: 0;
-}
-
-
-.narrative-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  text-align: center;
-}
-
-.narrative-slide h2 {
-  font-size: 2.5rem !important;
-  margin: 0 !important;
-}
-
-.narrative-slide p {
-  font-size: 1.5rem;
-  margin-top: 2rem !important;
-  opacity: 0.7;
-}
-</style>

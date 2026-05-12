@@ -15,7 +15,8 @@ npx slidev iberdrola.md
 
 A **satiric email chain presentation** showing a real-world exchange between David Guallar and Iberdrola (Spanish electricity company) about a bogus 11.30€ penalty charge.
 
-**The comedy:** Iberdrola contradicts itself repeatedly while David calmly cites laws and evidence.
+**The story:** David was lured by the siren song of a "cheaper" electricity rate at Leroy Merlin, only for ChatGPT to reveal it was actually a 56% price hike disguised with a mandatory "Premium" pack. Naturally, he exercised his 14-day legal right of withdrawal. Iberdrola's response? "Sure, but we're still charging you a penalty for leaving."
+**The comedy:** Too busy for bureaucratic nonsense, David unleashes Gemini (his AI) to fight the battle. Watch as a cold, calculating AI calmly citing the law slowly drives a massive corporation into a spiral of hilarious, contradictory excuses over exactly 11.30€.
 
 ---
 
@@ -59,31 +60,30 @@ A **satiric email chain presentation** showing a real-world exchange between Dav
 
 ## The Story Arc
 
-### Act I: The Request (Slides 1-3)
-**David:** Formally requests withdrawal (desistimiento)
-**Narrator:** Iberdrola charges anyway
-**David:** Complains about the charge
+### Act I: The Trojan Horse Rate
+**The Pitch:** A wild Iberdrola commercial appears at Leroy Merlin! It uses *Deceptive Pricing*. It's super effective!
+**The Reality Check:** ChatGPT reads the fine print 3 days later: 56% more expensive, doubled power costs, and a sneaky, mandatory "Iberdrola Plus Premium" pack.
+**The Counter-Attack:** David exercises his 14-day legal right of withdrawal (desistimiento).
 
-### Act II: The Runaround (Slides 4-8)
-**Iberdrola:** "We never issued an invoice"
-**David:** "Your employee told me I'd be charged"
-**Iberdrola:** "Then you should've done it before the change"
-**David:** "That's exactly what I did"
-**Iberdrola:** "Never mind, here's your invoice for 11.30€"
+### Act II: Cry Havoc and Let Slip the AI
+**Email 1:** David's AI formally and politely requests the withdrawal.
+**The Plot Twist:** Iberdrola completely ignores the concept of withdrawal and slaps a penalty for "changing companies".
+### Act II: El Caballo de Troya y el Desistimiento
+**Email 1:** La IA de David solicita formalmente el desistimiento.
+**El Giro:** Iberdrola ignora el concepto de desistimiento y aplica una penalización por "cese anticipado".
+**Email 2:** La IA contraataca, exigiendo la anulación del cargo y citando el plazo legal.
+**Email 3:** Iberdrola lanza *Confirmación*: "Sí, te cobramos 11,30 € por irte antes de un año".
 
-### Act III: The Contradiction Spiral (Slides 9-13)
-**David:** Cites Art. 102 RD 1/2007 (law prohibits this penalty)
-**Iberdrola:** "We charge anyway"
-**David:** "The law says I only owe consumption"
-**Iberdrola:** "We can't find your withdrawal request"
-**David:** "Here's proof, dated Jan 17"
-**Iberdrola:** "Your docs are dated Jan 19"
+### Act III: El Multiverso de las Excusas (Emails 4-11)
+*Un rally de 8 emails donde la lógica de Iberdrola colapsa en tiempo real:*
+- **Excusa 1:** "¡Tenía que haber desistido antes de cambiar de compañía!" (IA: "Es literalmente lo que hice").
+- **Excusa 2:** "Ah, pero los desistimientos tardan días, ¡así que no debería haber cambiado!". (Espera, ¿no acabas de decir...?)
+- **Excusa 3:** "Mira, los desistimientos se cobran igual". (La IA suelta el Art. 102 RD 1/2007 como un mic drop, demostrando que eso es ilegal).
+- **El Gaslighting Definitivo:** "¿Quién eres? No nos llegó tu solicitud del 17, te fuiste el 18. Paga la penalización".
 
-### Act IV: The Final Escalation (Slides 14-17)
-**David:** Presents date evidence again
-**Iberdrola:** "Actually, it's a 5% penalty for early termination"
-**David:** INVOKES RGPD + GDPR + Right to Be Forgotten
-**End:** *Awaiting Iberdrola's response...*
+### Act IV: La Opción Nuclear y Victoria de David (Email 12)
+**El Movimiento Final:** La IA adjunta el correo original (otra vez), denuncia la confusión deliberada entre *cese* y *desistimiento*, cita dos leyes más y lanza el nuke de la LOPD: el **Derecho de Supresión (derecho al olvido)**. "Anula la factura y borra mi existencia de tus datos".
+**Final:** ¡Victoria! David vence a Goliat (Iberdrola). La penalización es anulada y David sonríe ante la cámara.
 
 ---
 

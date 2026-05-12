@@ -1,34 +1,64 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, watch } from 'vue'
 
 const props = defineProps({
   text: { type: String, default: '' },
-  speed: { type: Number, default: 22 },
+  speed: { type: Number, default: 14 },
 })
 
 const displayed = ref('')
 const done = ref(false)
 let timer = null
 
-onMounted(() => {
+function clearTimer() {
+  if (timer) {
+    clearInterval(timer)
+    timer = null
+  }
+}
+
+function finish() {
+  clearTimer()
+  displayed.value = props.text
+  done.value = true
+}
+
+function start() {
+  clearTimer()
+  displayed.value = ''
+  done.value = false
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  if (reduceMotion || props.speed <= 0) {
+    finish()
+    return
+  }
+
   let i = 0
   timer = setInterval(() => {
     if (i < props.text.length) {
       displayed.value += props.text[i++]
     } else {
-      done.value = true
-      clearInterval(timer)
+      finish()
     }
   }, props.speed)
+}
+
+onMounted(() => {
+  start()
+})
+
+watch(() => props.text, () => {
+  start()
 })
 
 onUnmounted(() => {
-  if (timer) clearInterval(timer)
+  clearTimer()
 })
 </script>
 
 <template>
-  <div class="tw-wrap">
+  <div class="tw-wrap" @dblclick.stop="finish">
     <span class="tw-text">{{ displayed }}</span><span v-if="!done" class="tw-cursor">▌</span>
   </div>
 </template>
