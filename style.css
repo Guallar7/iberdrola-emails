@@ -138,8 +138,10 @@
 .doc-amount {
   margin-top: 2rem;
   color: #ff6600;
-  font-size: 2rem;
+  font-size: 1.55rem;
   font-weight: 800;
+  line-height: 1.08;
+  text-transform: uppercase;
 }
 
 .doc-stamp {

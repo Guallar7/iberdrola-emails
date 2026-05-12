@@ -26,7 +26,7 @@ info: |
 
 <div class="title-evidence">
 <span>14 días legales</span>
-<span>11,30 € de penalización</span>
+<span>Penalización improcedente</span>
 <span>12 emails</span>
 </div>
 
@@ -35,7 +35,7 @@ info: |
 <div class="doc-line strong"></div>
 <div class="doc-line"></div>
 <div class="doc-line short"></div>
-<div class="doc-amount">11,30 €</div>
+<div class="doc-amount">Cargo disputado</div>
 <div class="doc-stamp">Anulada</div>
 </div>
 </section>
