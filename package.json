@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "slidev iberdrola.md",
-    "build": "slidev build iberdrola.md"
+    "build": "slidev build iberdrola.md",
+    "postbuild": "node scripts/create-route-fallbacks.mjs"
   },
   "engines": {
     "node": ">=20.12.0"
