@@ -13,9 +13,32 @@ info: |
   David Guallar vs. Iberdrola 
 ---
 
-# La Kafkiana Historia del Desistimiento
+<section class="title-slide">
+<div class="title-kicker">Caso real · IA contra burocracia corporativa</div>
 
-*vs. Iberdrola*
+<h1>La Kafkiana Historia del Desistimiento</h1>
+
+<div class="title-versus">
+<span>David Guallar</span>
+<strong>vs.</strong>
+<span>Iberdrola</span>
+</div>
+
+<div class="title-evidence">
+<span>14 días legales</span>
+<span>11,30 € de penalización</span>
+<span>12 emails</span>
+</div>
+
+<div class="title-document">
+<div class="doc-label">Factura</div>
+<div class="doc-line strong"></div>
+<div class="doc-line"></div>
+<div class="doc-line short"></div>
+<div class="doc-amount">11,30 €</div>
+<div class="doc-stamp">Anulada</div>
+</div>
+</section>
 
 ---
 disabled: true
